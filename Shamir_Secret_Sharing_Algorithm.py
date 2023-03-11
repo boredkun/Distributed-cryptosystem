@@ -61,6 +61,7 @@ class ShamirSecretSharing:
 
     # составляем функцию степени k-1 со случайными коэфициентами по модулю
     def gen_k_random_coefficients(self):
+
         arr = []
         arr.append(self.secret)
         for i in range(self.k - 1):

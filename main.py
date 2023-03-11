@@ -35,9 +35,11 @@ class TestRSA(unittest.TestCase):
         self.assertEqual(self.rsa.Solovey_Shtrassen(3571), True)
 
     def test_gcd(self):
+
         self.assertEqual(self.rsa.gcd(12, 6), 6)
 
     def test_inverse_value(self):
+
         self.assertEqual(self.rsa.inverse(5, 12), 5)
 
     def test_Shamir_1(self):

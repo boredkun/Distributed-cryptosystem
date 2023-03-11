@@ -22,6 +22,7 @@ class RSA:
         self.e = None
 
     def launch_RSA(self, secret: int):
+        
         self.__gen_p_q()
         self.__gen_N()
         #print('Число N = ', self.N)
